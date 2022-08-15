@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-text-clr);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+.section-center {
+  width: 80%;
+  margin: auto;
+}
+
+.random-section {
+  width: 65%;
+  margin: auto;
+  padding: 3.25rem 0;
+}
+:root {
+  /* BG COLOR*/
+  --dk-bg-clr: #1f2937;
+  --qt-sec-bg-clr: #e5e7eb;
+  /*TEXT CLR*/
+  --main-text-clr: #f9faf8;
+  --sec-text-clr: #e5e7eb;
+  /*BTN COLOR*/
+  --btn-clr: #3882f6;
+}
+
+/*bgcol*/
+.bg-dark {
+  background-color: var(--dk-bg-clr);
+}
+.bg-gray {
+  background-color: var(--qt-sec-bg-clr);
+}
+.bg-blue {
+  background-color: var(--btn-clr);
+}
+
+/* text colour*/
+.wht-clr-text1 {
+  color: var(--main-text-clr);
+}
+.wht-clr-text2 {
+  color: var(--sec-text-clr);
+}
+
+.dk-clr-text {
+  color: var(--dk-bg-clr);
+}
+
+.hero-txt {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.sec-txt,
+.link-txt {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.sec-tit {
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.qt-txt {
+  font-size: 2.25rem;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.header {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-container {
+  width: 10rem;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-item {
+  margin: 0 1rem;
+}
+
+.hero-section {
+  display: flex;
+  height: calc(65vh-5rem);
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-left-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hero-right-container {
+  width: 50%;
+}
+.hero-title,
+.hero-description {
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  color: var(--main-text-clr);
+  font-weight: 700;
+  border-radius: 10px;
+  text-transform: capitalize;
+  background-color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.btn-blue {
+  background-color: var(--btn-clr);
+  border-color: var(--btn-clr);
+}
+
+.card-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  padding: 1rem;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.qt-section {
+  padding: 3rem 0;
+}
+
+.qt-content {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cite {
+  margin-top: 0.5rem;
+  alig: end;
+}
+
+.cta-section {
+  padding: 3rem 0;
+}
+
+.cta-box {
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+
+.footer {
+  padding: 3rem;
+}
