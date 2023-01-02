@@ -5,16 +5,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 16px;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-text-clr);
 }
+
 a {
   text-decoration: none;
 }
+
+a:hover {
+  color: #1b8486;
+}
+
 li {
   list-style: none;
 }
@@ -23,6 +31,19 @@ img {
   width: 80%;
   height: auto;
 }
+
+main img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 2s;
+}
+
 
 .section-center {
   width: 80%;
@@ -34,6 +55,7 @@ img {
   margin: auto;
   padding: 3.25rem 0;
 }
+
 :root {
   /* BG COLOR*/
   --dk-bg-clr: #1f2937;
@@ -49,9 +71,11 @@ img {
 .bg-dark {
   background-color: var(--dk-bg-clr);
 }
+
 .bg-gray {
   background-color: var(--qt-sec-bg-clr);
 }
+
 .bg-blue {
   background-color: var(--btn-clr);
 }
@@ -60,6 +84,7 @@ img {
 .wht-clr-text1 {
   color: var(--main-text-clr);
 }
+
 .wht-clr-text2 {
   color: var(--sec-text-clr);
 }
@@ -108,6 +133,7 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+
 .logo-container {
   width: 10rem;
 }
@@ -136,9 +162,11 @@ img {
   align-items: flex-start;
   justify-content: space-between;
 }
+
 .hero-right-container {
   width: 50%;
 }
+
 .hero-title,
 .hero-description {
   margin-bottom: 1rem;
@@ -147,8 +175,9 @@ img {
 }
 
 .btn {
+  margin-top: .7rem;
   padding: 0.75rem 2rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: var(--main-text-clr);
   font-weight: 700;
   border-radius: 10px;
@@ -157,6 +186,7 @@ img {
   border: 2px solid black;
   cursor: pointer;
 }
+
 .btn-blue {
   background-color: var(--btn-clr);
   border-color: var(--btn-clr);
@@ -196,9 +226,10 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 .cite {
   margin-top: 0.5rem;
-  alig: end;
+  text-align: end;
 }
 
 .cta-section {
@@ -215,4 +246,5 @@ img {
 
 .footer {
   padding: 3rem;
+  height: 10rem;
 }
